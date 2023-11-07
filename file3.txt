@@ -9,6 +9,10 @@ git log
 git diff
 git diff --staged
 git rm --cached "file.txt"
+git push origin main
+git tag v1.0 -m "first release"
+git push tag v1.0
+
 
 ***************************pushing local repositry to remote repositry********************************
 echo "# git course" >>README.md
@@ -16,3 +20,4 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
+
