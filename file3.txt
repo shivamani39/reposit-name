@@ -1,1 +1,18 @@
-this is a new file
+git init
+git status
+git add file.txt
+git add .
+git commit
+git commit -m "my first commit"
+git commit -a -m "commit msg"
+git log
+git diff
+git diff --staged
+git rm --cached "file.txt"
+
+***************************pushing local repositry to remote repositry********************************
+echo "# git course" >>README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
